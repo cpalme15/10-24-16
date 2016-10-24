@@ -1,0 +1,38 @@
+/*Collin Palmer
+ * date:10/24/16
+ * COSC 111
+ * Defining classes
+ * 
+ */
+public class classwork {
+
+
+	public static void main(String[] args) {
+	
+		Fraction f1=new Fraction();
+		Fraction f2= new Fraction(2, 6);
+		f1.setnum(12);
+		f1.setdemo(36);
+		System.out.print(f1);
+
+		f1.reduce();
+		
+		
+		 
+		
+		
+		System.out.println(" = "+f1);
+		f1.display();
+		
+		System.out.print(f2);
+		f2.reduce();
+		System.out.print(" = "+f2);
+		if (f1.equals(f2))
+				System.out.println("Same");
+		else 
+			System.out.println("Different");
+		System.out.println();
+}
+
+
+}
